@@ -12,6 +12,7 @@ export class AppController {
 
   @Post()
   postHello(): string {
+    console.log('test');
     return 'return value';
   }
 }
