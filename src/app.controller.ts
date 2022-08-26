@@ -12,6 +12,6 @@ export class AppController {
 
   @Post()
   postHello(): string {
-    return 'test';
+    return 'return value';
   }
 }
