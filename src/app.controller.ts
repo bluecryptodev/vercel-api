@@ -1,4 +1,5 @@
 import { Controller, Get, Post } from '@nestjs/common';
+import { ThrottlerException } from '@nestjs/throttler';
 import { AppService } from './app.service';
 
 @Controller()
